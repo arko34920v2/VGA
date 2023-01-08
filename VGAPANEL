@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "VGA PANEL ADMIN FE V" .. currentVersion
+Title.Text = " AOM PANEL ADMIN FE V" .. currentVersion
 
 do
 	local emoji = ({
@@ -310,7 +310,7 @@ SettingsHolder.VerticalScrollBarInset = 'Always'
 SettingsHolder.ZIndex = 10
 table.insert(scroll,SettingsHolder)
 
-Prefix.Name = "Prefix"
+Prefix.Name = "Préfixe"
 Prefix.Parent = SettingsHolder
 Prefix.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
 Prefix.BorderSizePixel = 0
@@ -319,7 +319,7 @@ Prefix.Position = UDim2.new(0, 5, 0, 5)
 Prefix.Size = UDim2.new(1, -10, 0, 20)
 Prefix.Font = Enum.Font.SourceSans
 Prefix.TextSize = 14
-Prefix.Text = "Prefix"
+Prefix.Text = "Préfixe"
 Prefix.TextColor3 = Color3.new(1, 1, 1)
 Prefix.TextXAlignment = Enum.TextXAlignment.Left
 Prefix.ZIndex = 10
@@ -378,19 +378,19 @@ function makeSettingsButton(name,iconID,off)
 	return button
 end
 
-ColorsButton = makeSettingsButton("Edit Theme","rbxassetid://4911962991")
+ColorsButton = makeSettingsButton("Editer les Thèmes","rbxassetid://4911962991")
 ColorsButton.Position = UDim2.new(0,5,0,55)
 ColorsButton.Size = UDim2.new(1,-10,0,25)
 ColorsButton.Name = "Colors"
 ColorsButton.Parent = SettingsHolder
 
-Keybinds = makeSettingsButton("Edit Keybinds","rbxassetid://129697930")
+Keybinds = makeSettingsButton("Editer les Keybinds","rbxassetid://129697930")
 Keybinds.Position = UDim2.new(0, 5, 0, 85)
 Keybinds.Size = UDim2.new(1, -10, 0, 25)
 Keybinds.Name = "Keybinds"
 Keybinds.Parent = SettingsHolder
 
-Aliases = makeSettingsButton("Edit Aliases","rbxassetid://5147488658")
+Aliases = makeSettingsButton("Editer les Aliases","rbxassetid://5147488658")
 Aliases.Position = UDim2.new(0, 5, 0, 115)
 Aliases.Size = UDim2.new(1, -10, 0, 25)
 Aliases.Name = "Aliases"
@@ -434,19 +434,19 @@ On.Text = ""
 On.TextColor3 = Color3.new(0, 0, 0)
 On.ZIndex = 10
 
-Positions = makeSettingsButton("Edit/Goto Waypoints","rbxassetid://5147488592")
+Positions = makeSettingsButton("Editer les points GPS enregistrés","rbxassetid://5147488592")
 Positions.Position = UDim2.new(0, 5, 0, 145)
 Positions.Size = UDim2.new(1, -10, 0, 25)
 Positions.Name = "Waypoints"
 Positions.Parent = SettingsHolder
 
-EventBind = makeSettingsButton("Edit Event Binds","rbxassetid://5147695474",759)
+EventBind = makeSettingsButton("Editer les éxécutions de commande sur moment","rbxassetid://5147695474",759)
 EventBind.Position = UDim2.new(0, 5, 0, 205)
 EventBind.Size = UDim2.new(1, -10, 0, 25)
 EventBind.Name = "EventBinds"
 EventBind.Parent = SettingsHolder
 
-Plugins = makeSettingsButton("Manage Plugins","rbxassetid://5147695474",743)
+Plugins = makeSettingsButton("Gérer les Plugins","rbxassetid://5147695474",743)
 Plugins.Position = UDim2.new(0, 5, 0, 175)
 Plugins.Size = UDim2.new(1, -10, 0, 25)
 Plugins.Name = "Plugins"
@@ -589,7 +589,7 @@ Logo.BackgroundTransparency = 1
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0, 125, 0, 127)
 Logo.Size = UDim2.new(0, 10, 0, 10)
-Logo.Image = "rbxassetid://1352543873"
+Logo.Image = "rbxassetid://9605261863"
 Logo.ImageTransparency = 0
 Logo.ZIndex = 10
 
@@ -601,7 +601,7 @@ Credits.Position = UDim2.new(0, 0, 0.9, 30)
 Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
-Credits.Text = "Edge // Zwolf // Moon // Toon"
+Credits.Text = "Snooper // AMber // Oli // Cobra"
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.ZIndex = 10
 
@@ -704,7 +704,7 @@ Delete_2.Position = UDim2.new(0, 200, 0, 0)
 Delete_2.Size = UDim2.new(0, 40, 0, 20)
 Delete_2.Font = Enum.Font.SourceSans
 Delete_2.TextSize = 14
-Delete_2.Text = "Delete"
+Delete_2.Text = "Supprimer"
 Delete_2.TextColor3 = Color3.new(0, 0, 0)
 Delete_2.ZIndex = 10
 table.insert(shade3,Delete_2)
@@ -746,7 +746,7 @@ Directions.Position = UDim2.new(0, 10, 0, 15)
 Directions.Size = UDim2.new(0, 115, 0, 90)
 Directions.ZIndex = 10
 Directions.Font = Enum.Font.SourceSans
-Directions.Text = "Click the button below and press a key/mouse button. Then select what you want to bind it to."
+Directions.Text = "Cliquez sur le bouton ci-dessous et appuyez sur un bouton clé/souris. Sélectionnez ensuite ce à quoi vous voulez le lier."
 Directions.TextColor3 = Color3.fromRGB(255, 255, 255)
 Directions.TextSize = 14.000
 Directions.TextWrapped = true
@@ -774,7 +774,7 @@ TriggerLabel.Position = UDim2.new(0, 10, 0, 155)
 TriggerLabel.Size = UDim2.new(0, 45, 0, 20)
 TriggerLabel.ZIndex = 10
 TriggerLabel.Font = Enum.Font.SourceSans
-TriggerLabel.Text = "Trigger:"
+TriggerLabel.Text = "Déclencheur:"
 TriggerLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TriggerLabel.TextSize = 14.000
 TriggerLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -788,7 +788,7 @@ BindTriggerSelect.Position = UDim2.new(0, 60, 0, 155)
 BindTriggerSelect.Size = UDim2.new(0, 65, 0, 20)
 BindTriggerSelect.ZIndex = 10
 BindTriggerSelect.Font = Enum.Font.SourceSans
-BindTriggerSelect.Text = "KeyDown"
+BindTriggerSelect.Text = "CléBasse"
 BindTriggerSelect.TextColor3 = Color3.fromRGB(255, 255, 255)
 BindTriggerSelect.TextSize = 16.000
 table.insert(shade2,BindTriggerSelect)
@@ -802,7 +802,7 @@ Add_2.Position = UDim2.new(0, 310, 0, 35)
 Add_2.Size = UDim2.new(0, 40, 0, 20)
 Add_2.ZIndex = 10
 Add_2.Font = Enum.Font.SourceSans
-Add_2.Text = "Add"
+Add_2.Text = "Ajouter"
 Add_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Add_2.TextSize = 14.000
 table.insert(shade2,Add_2)
@@ -822,14 +822,14 @@ Toggles.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Toggles.VerticalScrollBarInset = Enum.ScrollBarInset.Always
 table.insert(scroll,Toggles)
 
-ClickTP.Name = "Click TP (Hold Key & Click)"
+ClickTP.Name = "Click TP (si t'es pas con t'utilise le tp tool)"
 ClickTP.Parent = Toggles
 ClickTP.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
 ClickTP.BorderSizePixel = 0
 ClickTP.Size = UDim2.new(0, 200, 0, 20)
 ClickTP.ZIndex = 10
 ClickTP.Font = Enum.Font.SourceSans
-ClickTP.Text = "    Click TP (Hold Key & Click)"
+ClickTP.Text = "Click TP (si t'es pas con t'utilise le tp tool)"
 ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickTP.TextSize = 14.000
 ClickTP.TextXAlignment = Enum.TextXAlignment.Left
@@ -850,7 +850,7 @@ Select.TextSize = 14.000
 table.insert(shade3,Select)
 table.insert(text2,Select)
 
-ClickDelete.Name = "Click Delete (Hold Key & Click)"
+ClickDelete.Name = "Click Supprimer (ça sert un peu à rien)"
 ClickDelete.Parent = Toggles
 ClickDelete.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
 ClickDelete.BorderSizePixel = 0
@@ -858,7 +858,7 @@ ClickDelete.Position = UDim2.new(0, 0, 0, 25)
 ClickDelete.Size = UDim2.new(0, 200, 0, 20)
 ClickDelete.ZIndex = 10
 ClickDelete.Font = Enum.Font.SourceSans
-ClickDelete.Text = "    Click Delete (Hold Key & Click)"
+ClickDelete.Text = "Click Supprimer (ça sert un peu à rien)"
 ClickDelete.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickDelete.TextSize = 14.000
 ClickDelete.TextXAlignment = Enum.TextXAlignment.Left
@@ -916,7 +916,7 @@ CreateToggle.Position = UDim2.new(0, 152, 0, 10)
 CreateToggle.Size = UDim2.new(0, 198, 0, 20)
 CreateToggle.ZIndex = 10
 CreateToggle.Font = Enum.Font.SourceSans
-CreateToggle.Text = "Create Toggle"
+CreateToggle.Text = "Créer une activation"
 CreateToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 CreateToggle.TextSize = 14.000
 CreateToggle.TextXAlignment = Enum.TextXAlignment.Left
@@ -958,7 +958,7 @@ PopupText_2.BackgroundTransparency = 1
 PopupText_2.Size = UDim2.new(1, 0, 0.949999988, 0)
 PopupText_2.ZIndex = 10
 PopupText_2.Font = Enum.Font.SourceSans
-PopupText_2.Text = "Set Keybinds"
+PopupText_2.Text = "définir une touche de commande"
 PopupText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 PopupText_2.TextSize = 14.000
 PopupText_2.TextWrapped = true
@@ -1321,7 +1321,7 @@ Img.Size = UDim2.new(0, 100, 0, 95)
 Img.Image = "rbxassetid://4113050383"
 Img.ZIndex = 10
 
-AddPlugin.Name = "AddPlugin"
+AddPlugin.Name = "Ajouter un plugin"
 AddPlugin.Parent = background_3
 AddPlugin.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
 AddPlugin.BorderSizePixel = 0
@@ -1329,7 +1329,7 @@ AddPlugin.Position = UDim2.new(0, 235, 0, 100)
 AddPlugin.Size = UDim2.new(0, 115, 0, 50)
 AddPlugin.Font = Enum.Font.SourceSans
 AddPlugin.TextSize = 14
-AddPlugin.Text = "Add Plugin"
+AddPlugin.Text = "Ajouter un Plugin"
 AddPlugin.TextColor3 = Color3.new(1, 1, 1)
 AddPlugin.ZIndex = 10
 table.insert(shade2,AddPlugin)
@@ -1343,7 +1343,7 @@ FileName.Position = UDim2.new(0.028, 0, 0.625, 0)
 FileName.Size = UDim2.new(0, 200, 0, 50)
 FileName.Font = Enum.Font.SourceSans
 FileName.TextSize = 14
-FileName.Text = "Plugin File Name"
+FileName.Text = "Nom du fichier plugin"
 FileName.TextColor3 = Color3.new(1, 1, 1)
 FileName.ZIndex = 10
 table.insert(shade2,FileName)
@@ -1357,7 +1357,7 @@ About.Position = UDim2.new(0, 17, 0, 10)
 About.Size = UDim2.new(0, 187, 0, 49)
 About.Font = Enum.Font.SourceSans
 About.TextSize = 14
-About.Text = "Plugins are .iy files and should be located in the 'workspace' folder of your exploit."
+About.Text = "les plugins .iy doivent être stockés dans le dossier workspace de votre exploit."
 About.TextColor3 = Color3.fromRGB(255, 255, 255)
 About.TextWrapped = true
 About.TextYAlignment = Enum.TextYAlignment.Top
@@ -2732,7 +2732,7 @@ reference = (function()
 	inviteButton.MouseButton1Click:Connect(function()
 		local func = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
 		if func then
-			func("https://discord.io/infiniteyield")
+			func("SYNAPSE_SNOOPER#4139")
 			inviteButton.Text = "Copied"
 		else
 			inviteButton.Text = "No Clipboard Function, type out the link"
@@ -2741,7 +2741,7 @@ reference = (function()
 		lastPress = pressTime
 		wait(2)
 		if lastPress ~= pressTime then return end
-		inviteButton.Text = "Copy Discord Invite Link (https://discord.io/infiniteyield)"
+		inviteButton.Text = "Pour de l'aide, contactez SYNAPSE_SNOOPER#4139."
 	end)
 	dragGUI(main)
 	main.Parent = PARENT
@@ -2917,7 +2917,7 @@ function saves()
 			end
 		end
 	else
-		prefix = ';'
+		prefix = '/'
 		StayOpen = false
 		KeepInfYield = true
 		espTransparency = 0.3
@@ -4243,25 +4243,25 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
+CMDs[#CMDs + 1] = {NAME = 'discord / support / aide', DESC = 'Invite to the Infinite Yield support server.'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens FrostHook Spy'}
-CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
+CMDs[#CMDs + 1] = {NAME = 'DJ / DJJ', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
 CMDs[#CMDs + 1] = {NAME = 'notifyjobid', DESC = 'Notifies you the games JobId'}
 CMDs[#CMDs + 1] = {NAME = 'rejoin / rj', DESC = 'Makes you rejoin the game'}
 CMDs[#CMDs + 1] = {NAME = 'autorejoin / autorj', DESC = 'Automatically rejoins the server if you get kicked/disconnected'}
-CMDs[#CMDs + 1] = {NAME = 'serverhop / shop', DESC = 'Teleports you to a different server'}
-CMDs[#CMDs + 1] = {NAME = 'joinplayer [username / ID] [place ID]', DESC = 'Joins a specific players server'}
+CMDs[#CMDs + 1] = {NAME = 'changeserver / schop', DESC = 'Teleports you to a different server'}
+CMDs[#CMDs + 1] = {NAME = 'rjjoueur [nom / ID] [place ID]', DESC = 'Joins a specific players server'}
 CMDs[#CMDs + 1] = {NAME = 'gameteleport / gametp [place ID]', DESC = 'Joins a game by ID'}
-CMDs[#CMDs + 1] = {NAME = 'antiidle / antiafk', DESC = 'Prevents the game from kicking you for being idle/afk'}
+CMDs[#CMDs + 1] = {NAME = 'noafk / antiafk', DESC = 'Prevents the game from kicking you for being idle/afk'}
 CMDs[#CMDs + 1] = {NAME = 'datalimit [num]', DESC = 'Set outgoing KBPS limit'}
 CMDs[#CMDs + 1] = {NAME = 'replicationlag / backtrack [num]', DESC = 'Set IncomingReplicationLag'}
 CMDs[#CMDs + 1] = {NAME = 'creatorid / creator', DESC = 'Notifies you the creators ID'}
-CMDs[#CMDs + 1] = {NAME = 'copycreatorid / copycreator', DESC = 'Copies the creators ID to your clipboard'}
+CMDs[#CMDs + 1] = {NAME = 'copieridcreateur / copycreator', DESC = 'Copies the creators ID to your clipboard'}
 CMDs[#CMDs + 1] = {NAME = 'setcreatorid / setcreator', DESC = 'Sets your userid to the creators ID'}
 CMDs[#CMDs + 1] = {NAME = 'noprompts', DESC = 'Prevents the game from showing you purchase/premium prompts'}
 CMDs[#CMDs + 1] = {NAME = 'showprompts', DESC = 'Allows the game to show purchase/premium prompts again'}
@@ -4275,7 +4275,7 @@ CMDs[#CMDs + 1] = {NAME = 'guidelete', DESC = 'Enables backspace to delete GUI'}
 CMDs[#CMDs + 1] = {NAME = 'unguidelete / noguidelete', DESC = 'Disables guidelete'}
 CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = 'Hides the main IY GUI'}
 CMDs[#CMDs + 1] = {NAME = 'showiy / unhideiy', DESC = 'Shows IY again'}
-CMDs[#CMDs + 1] = {NAME = 'keepiy', DESC = 'Auto execute IY when you teleport through servers'}
+CMDs[#CMDs + 1] = {NAME = 'garderiy', DESC = 'Auto execute IY when you teleport through servers'}
 CMDs[#CMDs + 1] = {NAME = 'unkeepiy', DESC = 'Disable keepiy'}
 CMDs[#CMDs + 1] = {NAME = 'togglekeepiy', DESC = 'Toggle keepiy'}
 CMDs[#CMDs + 1] = {NAME = 'savegame / saveplace', DESC = 'Uses saveinstance to save the game'}
@@ -4284,22 +4284,22 @@ CMDs[#CMDs + 1] = {NAME = 'clientantikick / antikick (CLIENT)', DESC = 'Prevents
 CMDs[#CMDs + 1] = {NAME = 'clientantiteleport / antiteleport (CLIENT)', DESC = 'Prevents localscripts from teleporting you'}
 CMDs[#CMDs + 1] = {NAME = 'allowrejoin / allowrj [true/false] (CLIENT)', DESC = 'Changes if antiteleport allows you to rejoin or not'}
 CMDs[#CMDs + 1] = {NAME = 'cancelteleport / canceltp', DESC = 'Cancels teleports in progress'}
-CMDs[#CMDs + 1] = {NAME = 'volume / vol [0-10]', DESC = 'Adjusts your game volume on a scale of 0 to 10'}
+CMDs[#CMDs + 1] = {NAME = 'volume / volume [0-10]', DESC = 'Adjusts your game volume on a scale of 0 to 10'}
 CMDs[#CMDs + 1] = {NAME = 'antilag / boostfps / lowgraphics', DESC = 'Lowers game quality to boost FPS'}
-CMDs[#CMDs + 1] = {NAME = 'record / rec', DESC = 'Starts roblox recorder'}
+CMDs[#CMDs + 1] = {NAME = 'film / rec', DESC = 'Starts roblox recorder'}
 CMDs[#CMDs + 1] = {NAME = 'screenshot / scrnshot', DESC = 'Takes a screenshot'}
 CMDs[#CMDs + 1] = {NAME = 'togglefullscreen / togglefs', DESC = 'Toggles fullscreen'}
-CMDs[#CMDs + 1] = {NAME = 'notify [text]', DESC = 'Sends you a notification with the provided text'}
+CMDs[#CMDs + 1] = {NAME = 'notif [texte]', DESC = 'Sends you a notification with the provided text'}
 CMDs[#CMDs + 1] = {NAME = 'lastcommand / lastcmd', DESC = 'Executes the previous command used'}
 CMDs[#CMDs + 1] = {NAME = 'exit', DESC = 'Kills roblox process'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'noclip', DESC = 'Go through objects'}
+CMDs[#CMDs + 1] = {NAME = 'fantome', DESC = 'Go through objects'}
 CMDs[#CMDs + 1] = {NAME = 'unnoclip / clip', DESC = 'Disables noclip'}
-CMDs[#CMDs + 1] = {NAME = 'fly [speed]', DESC = 'Makes you fly'}
-CMDs[#CMDs + 1] = {NAME = 'unfly', DESC = 'Disables fly'}
-CMDs[#CMDs + 1] = {NAME = 'flyspeed [num]', DESC = 'Set fly speed (default is 20)'}
-CMDs[#CMDs + 1] = {NAME = 'vehiclefly / vfly [speed]', DESC = 'Makes you fly in a vehicle'}
-CMDs[#CMDs + 1] = {NAME = 'unvehiclefly / unvfly', DESC = 'Disables vehicle fly'}
+CMDs[#CMDs + 1] = {NAME = 'vol [vitesse]', DESC = 'Makes you fly'}
+CMDs[#CMDs + 1] = {NAME = 'novol', DESC = 'Disables fly'}
+CMDs[#CMDs + 1] = {NAME = 'vitessevol [num]', DESC = 'Set fly speed (default is 20)'}
+CMDs[#CMDs + 1] = {NAME = 'vehiculevol / vvol [speed]', DESC = 'Makes you fly in a vehicle'}
+CMDs[#CMDs + 1] = {NAME = 'novehiculevol / novvol', DESC = 'Disables vehicle fly'}
 CMDs[#CMDs + 1] = {NAME = 'vehicleflyspeed  / vflyspeed [num]', DESC = 'Set vehicle fly speed'}
 CMDs[#CMDs + 1] = {NAME = 'cframefly / cfly [speed]', DESC = 'Makes you fly, bypassing some anti cheats (works on mobile)'}
 CMDs[#CMDs + 1] = {NAME = 'uncframefly / uncfly', DESC = 'Disables cfly'}
@@ -4307,10 +4307,10 @@ CMDs[#CMDs + 1] = {NAME = 'cframeflyspeed  / cflyspeed [num]', DESC = 'Sets cfly
 CMDs[#CMDs + 1] = {NAME = 'qefly [true / false]', DESC = 'enables or disables the Q and E hotkeys for fly'}
 CMDs[#CMDs + 1] = {NAME = 'vehiclenoclip / vnoclip', DESC = 'Turns off vehicle collision'}
 CMDs[#CMDs + 1] = {NAME = 'vehicleclip / vclip / unvnoclip', DESC = 'Enables vehicle collision'}
-CMDs[#CMDs + 1] = {NAME = 'float /  platform', DESC = 'Spawns a platform beneath you causing you to float'}
+CMDs[#CMDs + 1] = {NAME = 'flotter /  platforme', DESC = 'Spawns a platform beneath you causing you to float'}
 CMDs[#CMDs + 1] = {NAME = 'unfloat / noplatform', DESC = 'Removes the platform'}
-CMDs[#CMDs + 1] = {NAME = 'swim', DESC = 'Allows you to swim in the air'}
-CMDs[#CMDs + 1] = {NAME = 'unswim / noswim', DESC = 'Stops you from swimming everywhere'}
+CMDs[#CMDs + 1] = {NAME = 'nage', DESC = 'Allows you to swim in the air'}
+CMDs[#CMDs + 1] = {NAME = 'nonage / nonage', DESC = 'Stops you from swimming everywhere'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'setwaypoint / swp [name]', DESC = 'Sets a waypoint at your position'}
 CMDs[#CMDs + 1] = {NAME = 'waypointpos / wpp [name] [X Y Z]', DESC = 'Sets a waypoint with specified coordinates'}
@@ -4324,7 +4324,7 @@ CMDs[#CMDs + 1] = {NAME = 'deletewaypoint / dwp [name]', DESC = 'Deletes a waypo
 CMDs[#CMDs + 1] = {NAME = 'clearwaypoints / cwp', DESC = 'Clears all waypoints'}
 CMDs[#CMDs + 1] = {NAME = 'cleargamewaypoints / cgamewp', DESC = 'Clears all waypoints for the game you are in'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'goto [plr]', DESC = 'Go to a player'}
+CMDs[#CMDs + 1] = {NAME = 'aller [joueur]', DESC = 'Go to a player'}
 CMDs[#CMDs + 1] = {NAME = 'tweengoto / tgoto [plr]', DESC = 'Tween to a player (bypasses some anti cheats)'}
 CMDs[#CMDs + 1] = {NAME = 'tweenspeed / tspeed [num]', DESC = 'Sets how fast all tween commands go (default is 1)'}
 CMDs[#CMDs + 1] = {NAME = 'vehiclegoto / vgoto [plr]', DESC = 'Go to a player while in a vehicle'}
@@ -4382,11 +4382,11 @@ CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'spectate / view [plr]', DESC = 'View a player'}
 CMDs[#CMDs + 1] = {NAME = 'viewpart / viewp [part name]', DESC = 'View a part'}
 CMDs[#CMDs + 1] = {NAME = 'unspectate / unview', DESC = 'Stops viewing player'}
-CMDs[#CMDs + 1] = {NAME = 'freecam / fc', DESC = 'Allows you to freely move camera around the game'}
+CMDs[#CMDs + 1] = {NAME = 'camlibre / fc', DESC = 'Allows you to freely move camera around the game'}
 CMDs[#CMDs + 1] = {NAME = 'freecampos / fcpos [X Y Z]', DESC = 'Moves / opens freecam in a certain position'}
 CMDs[#CMDs + 1] = {NAME = 'freecamwaypoint / fcwp [name]', DESC = 'Moves / opens freecam to a waypoint'}
 CMDs[#CMDs + 1] = {NAME = 'freecamgoto / fcgoto / fctp [plr]', DESC = 'Moves / opens freecam to a player'}
-CMDs[#CMDs + 1] = {NAME = 'unfreecam / unfc', DESC = 'Disables freecam'}
+CMDs[#CMDs + 1] = {NAME = 'uncameralibre / unfc', DESC = 'Disables freecam'}
 CMDs[#CMDs + 1] = {NAME = 'freecamspeed / fcspeed [num]', DESC = 'Adjusts freecam speed (default is 1)'}
 CMDs[#CMDs + 1] = {NAME = 'notifyfreecamposition / notifyfcpos', DESC = 'Noitifies you your freecam coordinates'}
 CMDs[#CMDs + 1] = {NAME = 'copyfreecamposition / copyfcpos', DESC = 'Copies your freecam coordinates to your clipboard'}
@@ -4436,12 +4436,12 @@ CMDs[#CMDs + 1] = {NAME = 'removeterrain / rterrain / noterrain', DESC = 'Remove
 CMDs[#CMDs + 1] = {NAME = 'clearnilinstances / nonilinstances / cni', DESC = 'Removes nil instances'}
 CMDs[#CMDs + 1] = {NAME = 'destroyheight / dh [num]', DESC = 'Sets FallenPartsDestroyHeight'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'fullbright / fb (CLIENT)', DESC = 'Makes the map brighter / more visible'}
+CMDs[#CMDs + 1] = {NAME = 'lightmode / fb (CLIENT)', DESC = 'Makes the map brighter / more visible'}
 CMDs[#CMDs + 1] = {NAME = 'loopfullbright / loopfb (CLIENT)', DESC = 'Makes the map brighter / more visible but looped'}
 CMDs[#CMDs + 1] = {NAME = 'unloopfullbright / unloopfb', DESC = 'Unloops fullbright'}
 CMDs[#CMDs + 1] = {NAME = 'ambient [num] [num] [num] (CLIENT)', DESC = 'Changes ambient'}
-CMDs[#CMDs + 1] = {NAME = 'day (CLIENT)', DESC = 'Changes the time to day for the client'}
-CMDs[#CMDs + 1] = {NAME = 'night (CLIENT)', DESC = 'Changes the time to night for the client'}
+CMDs[#CMDs + 1] = {NAME = 'jour (CLIENT)', DESC = 'Changes the time to day for the client'}
+CMDs[#CMDs + 1] = {NAME = 'nuit (CLIENT)', DESC = 'Changes the time to night for the client'}
 CMDs[#CMDs + 1] = {NAME = 'nofog (CLIENT)', DESC = 'Removes fog'}
 CMDs[#CMDs + 1] = {NAME = 'brightness [num] (CLIENT)', DESC = 'Changes the brightness lighting property'}
 CMDs[#CMDs + 1] = {NAME = 'globalshadows / gshadows (CLIENT)', DESC = 'Enables global shadows'}
@@ -4501,7 +4501,7 @@ CMDs[#CMDs + 1] = {NAME = 'god', DESC = 'Makes your character difficult to kill 
 CMDs[#CMDs + 1] = {NAME = 'invisible / invis', DESC = 'Makes you invisible to other players'}
 CMDs[#CMDs + 1] = {NAME = 'visible / vis', DESC = 'Makes you visible to other players'}
 CMDs[#CMDs + 1] = {NAME = 'toolinvisible / toolinvis / tinvis', DESC = 'Makes you invisible to other players and able to use tools'}
-CMDs[#CMDs + 1] = {NAME = 'speed / ws / walkspeed [num]', DESC = 'Change your walkspeed'}
+CMDs[#CMDs + 1] = {NAME = 'vitesse / ws / walkspeed [num]', DESC = 'Change your walkspeed'}
 CMDs[#CMDs + 1] = {NAME = 'spoofspeed / spoofws [num]', DESC = 'Spoofs your WalkSpeed on the Client'}
 CMDs[#CMDs + 1] = {NAME = 'loopspeed / loopws [num]', DESC = 'Loops your walkspeed'}
 CMDs[#CMDs + 1] = {NAME = 'unloopspeed / unloopws', DESC = 'Turns off loopspeed'}
@@ -4512,8 +4512,8 @@ CMDs[#CMDs + 1] = {NAME = 'loopjumppower / loopjp [num]', DESC = 'Loops your jum
 CMDs[#CMDs + 1] = {NAME = 'unloopjumppower / unloopjp', DESC = 'Turns off loopjumppower'}
 CMDs[#CMDs + 1] = {NAME = 'maxslopeangle / msa [num]', DESC = 'Adjusts MaxSlopeAngle'}
 CMDs[#CMDs + 1] = {NAME = 'gravity / grav [num] (CLIENT)', DESC = 'Change your gravity'}
-CMDs[#CMDs + 1] = {NAME = 'sit', DESC = 'Makes your character sit'}
-CMDs[#CMDs + 1] = {NAME = 'lay / laydown', DESC = 'Makes your character lay down'}
+CMDs[#CMDs + 1] = {NAME = 'assis', DESC = 'Makes your character sit'}
+CMDs[#CMDs + 1] = {NAME = 'allongé / laydown', DESC = 'Makes your character lay down'}
 CMDs[#CMDs + 1] = {NAME = 'sitwalk', DESC = 'Makes your character sit while still being able to walk'}
 CMDs[#CMDs + 1] = {NAME = 'nosit', DESC = 'Prevents your character from sitting'}
 CMDs[#CMDs + 1] = {NAME = 'unnosit', DESC = 'Disables nosit'}
@@ -4537,8 +4537,8 @@ CMDs[#CMDs + 1] = {NAME = 'nobillboardgui / nobgui / noname', DESC = 'Removes bi
 CMDs[#CMDs + 1] = {NAME = 'loopnobgui / loopnoname', DESC = 'Loop removes billboard and surface guis from your players (i.e. name guis at cafes)'}
 CMDs[#CMDs + 1] = {NAME = 'unloopnobgui / unloopnoname', DESC = 'Disables loopnobgui'}
 CMDs[#CMDs + 1] = {NAME = 'nohead / headless', DESC = 'Removes your head (uses simulation radius)'}
-CMDs[#CMDs + 1] = {NAME = 'noarms', DESC = 'Removes your arms'}
-CMDs[#CMDs + 1] = {NAME = 'nolegs', DESC = 'Removes your legs'}
+CMDs[#CMDs + 1] = {NAME = 'nobras', DESC = 'Removes your arms'}
+CMDs[#CMDs + 1] = {NAME = 'nojambes', DESC = 'Removes your legs'}
 CMDs[#CMDs + 1] = {NAME = 'nolimbs', DESC = 'Removes your limbs'}
 CMDs[#CMDs + 1] = {NAME = 'naked (CLIENT)', DESC = 'Removes your clothing'}
 CMDs[#CMDs + 1] = {NAME = 'noface / removeface', DESC = 'Removes your face'}
@@ -4559,8 +4559,8 @@ CMDs[#CMDs + 1] = {NAME = 'unweaken', DESC = 'Sets your characters CustomPhysica
 CMDs[#CMDs + 1] = {NAME = 'strengthen [num]', DESC = 'Makes your character more dense (CustomPhysicalProperties)'}
 CMDs[#CMDs + 1] = {NAME = 'unstrengthen', DESC = 'Sets your characters CustomPhysicalProperties to default'}
 CMDs[#CMDs + 1] = {NAME = 'breakvelocity', DESC = 'Sets your characters velocity to 0'}
-CMDs[#CMDs + 1] = {NAME = 'spin [speed]', DESC = 'Spins your character'}
-CMDs[#CMDs + 1] = {NAME = 'unspin', DESC = 'Disables spin'}
+CMDs[#CMDs + 1] = {NAME = 'tour [vitesse]', DESC = 'Spins your character'}
+CMDs[#CMDs + 1] = {NAME = 'notour', DESC = 'Disables spin'}
 CMDs[#CMDs + 1] = {NAME = 'vr', DESC = 'Loads CLOVR by Abacaxl'}
 CMDs[#CMDs + 1] = {NAME = 'split', DESC = 'Splits your character in half'}
 CMDs[#CMDs + 1] = {NAME = 'nilchar', DESC = 'Sets your characters parent to nil'}
@@ -4620,13 +4620,13 @@ CMDs[#CMDs + 1] = {NAME = 'removealias [alias]', DESC = 'Removes a custom alias'
 CMDs[#CMDs + 1] = {NAME = 'clraliases', DESC = 'Removes all custom aliases'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'addplugin / plugin [name]', DESC = 'Add a plugin via command'}
-CMDs[#CMDs + 1] = {NAME = 'removeplugin / deleteplugin [name]', DESC = 'Remove a plugin via command'}
-CMDs[#CMDs + 1] = {NAME = 'reloadplugin [name]', DESC = 'Reloads a plugin'}
+CMDs[#CMDs + 1] = {NAME = 'supprplugin / deleteplugin [name]', DESC = 'Remove a plugin via command'}
+CMDs[#CMDs + 1] = {NAME = 'rechargeplugin [name]', DESC = 'Reloads a plugin'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'breakloops / break (cmd loops)', DESC = 'Stops any cmd loops (;100^1^cmd)'}
+CMDs[#CMDs + 1] = {NAME = 'casserloop', DESC = 'Stops any cmd loops (;100^1^cmd)'}
 CMDs[#CMDs + 1] = {NAME = 'removecmd / deletecmd', DESC = 'Removes a command until the admin is reloaded'}
-CMDs[#CMDs + 1] = {NAME = 'tpwalk / teleportwalk [num]', DESC = 'Teleports you to your move direction'}
-CMDs[#CMDs + 1] = {NAME = 'untpwalk / unteleportwalk', DESC = 'Undoes tpwalk / teleportwalk'}
+CMDs[#CMDs + 1] = {NAME = 'tpmur / telepormur [num]', DESC = 'Teleports you to your move direction'}
+CMDs[#CMDs + 1] = {NAME = 'notpmur / noteleportmur', DESC = 'Undoes tpwalk / teleportwalk'}
 CMDs[#CMDs + 1] = {NAME = 'notifyping / ping', DESC = 'Notify yourself your ping'}
 CMDs[#CMDs + 1] = {NAME = 'trip', DESC = 'Makes your character fall over'}
 CMDs[#CMDs + 1] = {NAME = 'norender', DESC = 'Disable 3d Rendering to decrease the amount of CPU the client uses'}
@@ -6255,7 +6255,7 @@ addcmd('discord', {'support', 'help'}, function(args, speaker)
 	end
 end)
 
-addcmd('keepiy', {}, function(args, speaker)
+addcmd('garderiy', {}, function(args, speaker)
 	if queueteleport then
 		KeepInfYield = true
 		updatesaves()
@@ -6601,7 +6601,7 @@ addcmd('notifyjobid',{},function(args, speaker)
 	notify('JobId / PlaceId',JobId..' / '..PlaceId)
 end)
 
-addcmd('breakloops',{'break'},function(args, speaker)
+addcmd('casserloop',{'break'},function(args, speaker)
 	lastBreakTime = tick()
 end)
 
@@ -6639,7 +6639,7 @@ addcmd('autorejoin',{'autorj'},function(args, speaker)
 	notify('Auto Rejoin','Auto rejoin enabled')
 end)
 
-addcmd('serverhop',{'shop'},function(args, speaker)
+addcmd('serverchange',{'schop'},function(args, speaker)
 	-- thanks to NoobSploit for fixing
 	if httprequest then
 		local servers = {}
@@ -6660,7 +6660,7 @@ addcmd('serverhop',{'shop'},function(args, speaker)
 	end
 end)
 
-addcmd('joinplayer',{'joinp'},function(args, speaker)
+addcmd('rjjoueur',{'joinp'},function(args, speaker)
 	local retries = 0
 	function ToServer(User,Place)	
 		if args[2] == nil then Place = PlaceId end
@@ -6721,7 +6721,7 @@ addcmd('exit',{},function(args, speaker)
 end)
 
 local Noclipping = nil
-addcmd('noclip',{},function(args, speaker)
+addcmd('fantome',{},function(args, speaker)
 	Clip = false
 	wait(0.1)
 	local function NoclipLoop()
@@ -6736,7 +6736,7 @@ addcmd('noclip',{},function(args, speaker)
 	Noclipping = RunService.Stepped:Connect(NoclipLoop)
 end)
 
-addcmd('clip',{'unnoclip'},function(args, speaker)
+addcmd('clip',{'nodantome'},function(args, speaker)
 	if Noclipping then
 		Noclipping:Disconnect()
 	end
@@ -6849,7 +6849,7 @@ function NOFLY()
 	pcall(function() workspace.CurrentCamera.CameraType = Enum.CameraType.Custom end)
 end
 
-addcmd('fly',{},function(args, speaker)
+addcmd('vol',{},function(args, speaker)
 	NOFLY()
 	wait()
 	sFLY()
@@ -7081,7 +7081,7 @@ addcmd('unswim',{'noswim'},function(args, speaker)
 	end
 end)
 
-addcmd('toggleswim',{},function(args, speaker)
+addcmd('nage',{},function(args, speaker)
 	if swimming then
 		execCmd('unswim')
 	else
@@ -7420,7 +7420,7 @@ addcmd('showiy',{'unhideiy'},function(args, speaker)
 	end
 end)
 
-addcmd('rec', {'record'}, function(args, speaker)
+addcmd('rec', {'film'}, function(args, speaker)
 	return COREGUI:ToggleRecording()
 end)
 
@@ -7523,7 +7523,7 @@ addcmd('cancelteleport',{'canceltp'},function(args, speaker)
 	TeleportService:TeleportCancel()
 end)
 
-addcmd('volume',{'vol'},function(args, speaker)
+addcmd('volume',{'volumes'},function(args, speaker)
 	local level = args[1]/10
 	UserSettings():GetService("UserGameSettings").MasterVolume = level
 end)
@@ -7586,7 +7586,7 @@ addcmd('setfpscap', {'fpscap', 'maxfps'}, function(args, speaker)
 	end
 end)
 
-addcmd('notify',{},function(args, speaker)
+addcmd('notif',{},function(args, speaker)
 	notify(getstring(1))
 end)
 
@@ -8051,7 +8051,7 @@ function StopFreecam()
 	fcRunning = false
 end
 
-addcmd('freecam',{'fc'},function(args, speaker)
+addcmd('camlibre',{'fc'},function(args, speaker)
 	StartFreecam()
 end)
 
@@ -8087,7 +8087,7 @@ addcmd('freecamgoto',{'fcgoto','freecamtp','fctp'},function(args, speaker)
 	end
 end)
 
-addcmd('unfreecam',{'nofreecam','unfc','nofc'},function(args, speaker)
+addcmd('uncameralibre',{'nofreecam','unfc','nofc'},function(args, speaker)
 	StopFreecam()
 end)
 
@@ -8494,7 +8494,7 @@ addcmd('render',{},function(args, speaker)
 end)
 
 
-addcmd('goto',{'to'},function(args, speaker)
+addcmd('aller',{'to'},function(args, speaker)
 	local players = getPlayer(args[1], speaker)
 	for i,v in pairs(players)do
 		if Players[v].Character ~= nil then
@@ -9254,7 +9254,7 @@ addcmd('nohead',{'rhead','headless'},function(args, speaker)
 	end
 end)
 
-addcmd('noarms',{'rarms'},function(args, speaker)
+addcmd('nobras',{'rarms'},function(args, speaker)
 	if r15(speaker) then
 		for i,v in pairs(speaker.Character:GetChildren()) do
 			if v:IsA("BasePart") and
@@ -9274,7 +9274,7 @@ addcmd('noarms',{'rarms'},function(args, speaker)
 	end
 end)
 
-addcmd('nolegs',{'rlegs'},function(args, speaker)
+addcmd('nojambes',{'rlegs'},function(args, speaker)
 	if r15(speaker) then
 		for i,v in pairs(speaker.Character:GetChildren()) do
 			if v:IsA("BasePart") and
@@ -9294,11 +9294,11 @@ addcmd('nolegs',{'rlegs'},function(args, speaker)
 	end
 end)
 
-addcmd('sit',{},function(args, speaker)
+addcmd('assis',{},function(args, speaker)
 	speaker.Character:FindFirstChildOfClass("Humanoid").Sit = true
 end)
 
-addcmd('lay', {'laydown'}, function(args, speaker)
+addcmd('allongé', {'laydown'}, function(args, speaker)
 	local Human = speaker.Character and speaker.Character:FindFirstChildOfClass('Humanoid')
 	if not Human then
 		return
@@ -9697,7 +9697,7 @@ addcmd('walktopos',{'walktoposition'},function(args, speaker)
 	speaker.Character:FindFirstChildOfClass('Humanoid').WalkToPoint = Vector3.new(args[1],args[2],args[3])
 end)
 
-addcmd('speed',{'ws','walkspeed'},function(args, speaker)
+addcmd('vitesse',{'ws','walkspeed'},function(args, speaker)
 	if args[2] then
 		local speed = args[2] or 16
 		if isNumber(speed) then
@@ -9988,7 +9988,7 @@ addcmd('remotespy',{'rspy'},function(args, speaker)
 	loadstring(game:HttpGet("https://gist.githubusercontent.com/Toon-arch/8f5af8403ca5dabad30763ab2b1cf8d0/raw/87d9847dd85850777e691e46d0c52f9020b42ee2/spy"))()
 end)
 
-addcmd('audiologger',{'alogger'},function(args, speaker)
+addcmd('DJ',{'DJJ'},function(args, speaker)
 	notify("Loading",'Hold on a sec')
 	loadstring(game:HttpGet(('https://pastebin.com/raw/GmbrsEjM'),true))()
 end)
@@ -11293,7 +11293,7 @@ addcmd('handlekill', {'hkill'}, function(args, speaker)
 end)
 
 local hb = RunService.Heartbeat
-addcmd('tpwalk', {'teleportwalk'}, function(args, speaker)
+addcmd('tpmur', {'teleportwalk'}, function(args, speaker)
 	tpwalking = true
 	local chr = speaker.Character
 	local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
@@ -11408,7 +11408,7 @@ addcmd('fasttp',{'fastteleport'},function(args, speaker)
 	end
 end)
 
-addcmd('spin',{},function(args, speaker)
+addcmd('tour',{},function(args, speaker)
 	local spinSpeed = 20
 	if args[1] and isNumber(args[1]) then
 		spinSpeed = args[1]
@@ -11425,7 +11425,7 @@ addcmd('spin',{},function(args, speaker)
 	Spin.AngularVelocity = Vector3.new(0,spinSpeed,0)
 end)
 
-addcmd('unspin',{},function(args, speaker)
+addcmd('notour',{},function(args, speaker)
 	for i,v in pairs(getRoot(speaker.Character):GetChildren()) do
 		if v.Name == "Spinning" then
 			v:Destroy()
@@ -11955,11 +11955,11 @@ addcmd('addplugin',{'plugin'},function(args, speaker)
 	addPlugin(getstring(1))
 end)
 
-addcmd('removeplugin',{'deleteplugin'},function(args, speaker)
+addcmd('supprplugin',{'deleteplugin'},function(args, speaker)
 	deletePlugin(getstring(1))
 end)
 
-addcmd('reloadplugin',{},function(args, speaker)
+addcmd('rechaergeplugin',{},function(args, speaker)
 	local pluginName = getstring(1)
 	deletePlugin(pluginName)
 	wait(1)
