@@ -6865,7 +6865,7 @@ addcmd('flyspeed',{'flysp'},function(args, speaker)
 	end
 end)
 
-addcmd('unfly',{'nofly','novfly','unvehiclefly','novehiclefly','unvfly'},function(args, speaker)
+addcmd('novol',{'nofly','novfly','unvehiclefly','novehiclefly','unvfly'},function(args, speaker)
 	NOFLY()
 end)
 
