@@ -6736,7 +6736,7 @@ addcmd('fantome',{},function(args, speaker)
 	Noclipping = RunService.Stepped:Connect(NoclipLoop)
 end)
 
-addcmd('clip',{'nodantome'},function(args, speaker)
+addcmd('eau',{'nofantome'},function(args, speaker)
 	if Noclipping then
 		Noclipping:Disconnect()
 	end
@@ -6745,9 +6745,9 @@ end)
 
 addcmd('togglenoclip',{},function(args, speaker)
 	if Clip then
-		execCmd('noclip')
+		execCmd('fantome')
 	else
-		execCmd('clip')
+		execCmd('eau')
 	end
 end)
 
