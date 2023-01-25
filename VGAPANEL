@@ -14,7 +14,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '507'
+currentVersion = '8'
 
 Players = game:GetService("Players")
 
@@ -263,7 +263,7 @@ Cmdbar.TextXAlignment = Enum.TextXAlignment.Left
 Cmdbar.TextColor3 = Color3.new(1, 1, 1)
 Cmdbar.Text = ""
 Cmdbar.ZIndex = 10
-Cmdbar.PlaceholderText = "Command Bar"
+Cmdbar.PlaceholderText = "Barre de commandes"
 
 CMDsF.Name = "CMDs"
 CMDsF.Parent = Holder
@@ -617,7 +617,7 @@ Credits.Position = UDim2.new(0, 0, 0.9, 30)
 Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
-Credits.Text = "Marco // Oli // Ambre // Nox"
+Credits.Text = "Marco // Ambre // Olivier // Nox"
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.ZIndex = 10
 
@@ -667,7 +667,7 @@ Delete.Position = UDim2.new(0, 50, 0, 150)
 Delete.Size = UDim2.new(0, 40, 0, 20)
 Delete.Font = Enum.Font.SourceSans
 Delete.TextSize = 14
-Delete.Text = "Supprimer"
+Delete.Text = "Suppr"
 Delete.TextColor3 = Color3.new(1, 1, 1)
 Delete.ZIndex = 10
 table.insert(shade2,Delete)
@@ -720,7 +720,7 @@ Delete_2.Position = UDim2.new(0, 200, 0, 0)
 Delete_2.Size = UDim2.new(0, 40, 0, 20)
 Delete_2.Font = Enum.Font.SourceSans
 Delete_2.TextSize = 14
-Delete_2.Text = "Supprimer"
+Delete_2.Text = "Suppr"
 Delete_2.TextColor3 = Color3.new(0, 0, 0)
 Delete_2.ZIndex = 10
 table.insert(shade3,Delete_2)
@@ -762,7 +762,7 @@ Directions.Position = UDim2.new(0, 10, 0, 15)
 Directions.Size = UDim2.new(0, 115, 0, 90)
 Directions.ZIndex = 10
 Directions.Font = Enum.Font.SourceSans
-Directions.Text = "Entrez d'abord une commande ou 2 si vous avez créer une activation puis cliquez sur une touche de votre clavier."
+Directions.Text = "cliquer sur une touche de votre clavier pour défnir une éxécution de commande par cette touche."
 Directions.TextColor3 = Color3.fromRGB(255, 255, 255)
 Directions.TextSize = 14.000
 Directions.TextWrapped = true
@@ -790,7 +790,7 @@ TriggerLabel.Position = UDim2.new(0, 10, 0, 155)
 TriggerLabel.Size = UDim2.new(0, 45, 0, 20)
 TriggerLabel.ZIndex = 10
 TriggerLabel.Font = Enum.Font.SourceSans
-TriggerLabel.Text = "déclencheur:"
+TriggerLabel.Text = "déclenche:"
 TriggerLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TriggerLabel.TextSize = 14.000
 TriggerLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -818,7 +818,7 @@ Add_2.Position = UDim2.new(0, 310, 0, 35)
 Add_2.Size = UDim2.new(0, 40, 0, 20)
 Add_2.ZIndex = 10
 Add_2.Font = Enum.Font.SourceSans
-Add_2.Text = "Ajouter"
+Add_2.Text = "Ajout"
 Add_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Add_2.TextSize = 14.000
 table.insert(shade2,Add_2)
@@ -845,7 +845,7 @@ ClickTP.BorderSizePixel = 0
 ClickTP.Size = UDim2.new(0, 200, 0, 20)
 ClickTP.ZIndex = 10
 ClickTP.Font = Enum.Font.SourceSans
-ClickTP.Text = "    Click TP (fais /tptool c mieux)"
+ClickTP.Text = "    Click TP (Hold Key & Click)"
 ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickTP.TextSize = 14.000
 ClickTP.TextXAlignment = Enum.TextXAlignment.Left
@@ -860,13 +860,13 @@ Select.Position = UDim2.new(0, 160, 0, 0)
 Select.Size = UDim2.new(0, 40, 0, 20)
 Select.ZIndex = 10
 Select.Font = Enum.Font.SourceSans
-Select.Text = "Ajouter"
+Select.Text = "ajouter"
 Select.TextColor3 = Color3.fromRGB(0, 0, 0)
 Select.TextSize = 14.000
 table.insert(shade3,Select)
 table.insert(text2,Select)
 
-ClickDelete.Name = "Click Delete (Hold Key & Click)"
+ClickDelete.Name = "Click Delete (idc)"
 ClickDelete.Parent = Toggles
 ClickDelete.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
 ClickDelete.BorderSizePixel = 0
@@ -874,7 +874,7 @@ ClickDelete.Position = UDim2.new(0, 0, 0, 25)
 ClickDelete.Size = UDim2.new(0, 200, 0, 20)
 ClickDelete.ZIndex = 10
 ClickDelete.Font = Enum.Font.SourceSans
-ClickDelete.Text = "    Click supprimer (Les Btools quoi)"
+ClickDelete.Text = "    Click Delete (idk)"
 ClickDelete.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickDelete.TextSize = 14.000
 ClickDelete.TextXAlignment = Enum.TextXAlignment.Left
@@ -903,7 +903,7 @@ Cmdbar_2.Position = UDim2.new(0, 150, 0, 35)
 Cmdbar_2.Size = UDim2.new(0, 150, 0, 20)
 Cmdbar_2.ZIndex = 10
 Cmdbar_2.Font = Enum.Font.SourceSans
-Cmdbar_2.PlaceholderText = "Command"
+Cmdbar_2.PlaceholderText = "Commande"
 Cmdbar_2.Text = ""
 Cmdbar_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Cmdbar_2.TextSize = 14.000
@@ -917,7 +917,7 @@ Cmdbar_3.Position = UDim2.new(0, 150, 0, 60)
 Cmdbar_3.Size = UDim2.new(0, 150, 0, 20)
 Cmdbar_3.ZIndex = 10
 Cmdbar_3.Font = Enum.Font.SourceSans
-Cmdbar_3.PlaceholderText = "Command 2"
+Cmdbar_3.PlaceholderText = "Commande 2"
 Cmdbar_3.Text = ""
 Cmdbar_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Cmdbar_3.TextSize = 14.000
@@ -932,7 +932,7 @@ CreateToggle.Position = UDim2.new(0, 152, 0, 10)
 CreateToggle.Size = UDim2.new(0, 198, 0, 20)
 CreateToggle.ZIndex = 10
 CreateToggle.Font = Enum.Font.SourceSans
-CreateToggle.Text = "Créer une activation"
+CreateToggle.Text = "Créer Double keybinds"
 CreateToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 CreateToggle.TextSize = 14.000
 CreateToggle.TextXAlignment = Enum.TextXAlignment.Left
@@ -974,7 +974,7 @@ PopupText_2.BackgroundTransparency = 1
 PopupText_2.Size = UDim2.new(1, 0, 0.949999988, 0)
 PopupText_2.ZIndex = 10
 PopupText_2.Font = Enum.Font.SourceSans
-PopupText_2.Text = "Keybinds défini"
+PopupText_2.Text = "Ajouter un Keybind"
 PopupText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 PopupText_2.TextSize = 14.000
 PopupText_2.TextWrapped = true
@@ -1028,7 +1028,7 @@ Delete_5.Position = UDim2.new(0, 50, 0, 150)
 Delete_5.Size = UDim2.new(0, 40, 0, 20)
 Delete_5.Font = Enum.Font.SourceSans
 Delete_5.TextSize = 14
-Delete_5.Text = "Supprimer"
+Delete_5.Text = "Nettoyer"
 Delete_5.TextColor3 = Color3.new(1, 1, 1)
 Delete_5.ZIndex = 10
 table.insert(shade2,Delete_5)
@@ -1042,7 +1042,7 @@ Part.Position = UDim2.new(0, 5, 0, 150)
 Part.Size = UDim2.new(0, 40, 0, 20)
 Part.Font = Enum.Font.SourceSans
 Part.TextSize = 14
-Part.Text = "aller"
+Part.Text = "Part"
 Part.TextColor3 = Color3.new(1, 1, 1)
 Part.ZIndex = 10
 table.insert(shade2,Part)
@@ -1097,7 +1097,7 @@ Delete_6.Position = UDim2.new(0, 200, 0, 0)
 Delete_6.Size = UDim2.new(0, 40, 0, 20)
 Delete_6.Font = Enum.Font.SourceSans
 Delete_6.TextSize = 14
-Delete_6.Text = "Supprimer"
+Delete_6.Text = "Suppr"
 Delete_6.TextColor3 = Color3.new(0, 0, 0)
 Delete_6.ZIndex = 10
 table.insert(shade3,Delete_6)
@@ -1111,7 +1111,7 @@ TP.Position = UDim2.new(0, 155, 0, 0)
 TP.Size = UDim2.new(0, 40, 0, 20)
 TP.Font = Enum.Font.SourceSans
 TP.TextSize = 14
-TP.Text = "Aller"
+TP.Text = "aller"
 TP.TextColor3 = Color3.new(0, 0, 0)
 TP.ZIndex = 10
 table.insert(shade3,TP)
@@ -1149,7 +1149,7 @@ Delete_3.Position = UDim2.new(0, 5, 0, 150)
 Delete_3.Size = UDim2.new(0, 40, 0, 20)
 Delete_3.Font = Enum.Font.SourceSans
 Delete_3.TextSize = 14
-Delete_3.Text = "Supprimer"
+Delete_3.Text = "Nettoyer"
 Delete_3.TextColor3 = Color3.new(1, 1, 1)
 Delete_3.ZIndex = 10
 table.insert(shade2,Delete_3)
@@ -1202,7 +1202,7 @@ Delete_4.Position = UDim2.new(0, 200, 0, 0)
 Delete_4.Size = UDim2.new(0, 40, 0, 20)
 Delete_4.Font = Enum.Font.SourceSans
 Delete_4.TextSize = 14
-Delete_4.Text = "Supprimer"
+Delete_4.Text = "Suppr"
 Delete_4.TextColor3 = Color3.new(0, 0, 0)
 Delete_4.ZIndex = 10
 table.insert(shade3,Delete_4)
@@ -1294,7 +1294,7 @@ Delete_7.Position = UDim2.new(0, 200, 0, 0)
 Delete_7.Size = UDim2.new(0, 40, 0, 20)
 Delete_7.Font = Enum.Font.SourceSans
 Delete_7.TextSize = 14
-Delete_7.Text = "Delete"
+Delete_7.Text = "Suppr"
 Delete_7.TextColor3 = Color3.new(0, 0, 0)
 Delete_7.ZIndex = 10
 table.insert(shade3,Delete_7)
@@ -1373,7 +1373,7 @@ About.Position = UDim2.new(0, 17, 0, 10)
 About.Size = UDim2.new(0, 187, 0, 49)
 About.Font = Enum.Font.SourceSans
 About.TextSize = 14
-About.Text = "Les plugins .iy doivent être stockés dans le dossier 'workspace' de votre exe."
+About.Text = "Les plugins .iy doivent être localisés dans le dossier nommé Workspace de votre exe"
 About.TextColor3 = Color3.fromRGB(255, 255, 255)
 About.TextWrapped = true
 About.TextYAlignment = Enum.TextYAlignment.Top
@@ -1388,7 +1388,7 @@ Directions_2.Position = UDim2.new(0, 17, 0, 60)
 Directions_2.Size = UDim2.new(0, 187, 0, 49)
 Directions_2.Font = Enum.Font.SourceSans
 Directions_2.TextSize = 14
-Directions_2.Text = "Tapez le nom du fichier que vous voulez ajouter."
+Directions_2.Text = "Entre le nom du plugin que tu veux"
 Directions_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Directions_2.TextWrapped = true
 Directions_2.TextYAlignment = Enum.TextYAlignment.Top
@@ -1410,7 +1410,7 @@ PopupText_3.Size = UDim2.new(1, 0, 0.95, 0)
 PopupText_3.ZIndex = 10
 PopupText_3.Font = Enum.Font.SourceSans
 PopupText_3.TextSize = 14
-PopupText_3.Text = "Ajouter le plugin"
+PopupText_3.Text = "AJouter un Plugin"
 PopupText_3.TextColor3 = Color3.new(1, 1, 1)
 PopupText_3.TextWrapped = true
 table.insert(text1,PopupText_3)
@@ -1439,7 +1439,7 @@ AliasHint.Position = UDim2.new(0, 25, 0, 40)
 AliasHint.Size = UDim2.new(0, 200, 0, 50)
 AliasHint.Font = Enum.Font.SourceSansItalic
 AliasHint.TextSize = 16
-AliasHint.Text = "Ajouter des alias en utilisant la commande 'addalias'"
+AliasHint.Text = "Ajouter des alias par la commande addalias"
 AliasHint.TextColor3 = Color3.new(1, 1, 1)
 AliasHint.TextStrokeColor3 = Color3.new(1, 1, 1)
 AliasHint.TextWrapped = true
@@ -1454,7 +1454,7 @@ PluginsHint.Position = UDim2.new(0, 25, 0, 40)
 PluginsHint.Size = UDim2.new(0, 200, 0, 50)
 PluginsHint.Font = Enum.Font.SourceSansItalic
 PluginsHint.TextSize = 16
-PluginsHint.Text = "Demandez un dossier de plugins à Snoop (SYNAPSE_SNOOPER#4139)"
+PluginsHint.Text = "Récupérer des plugins au près du proprio Snoop"
 PluginsHint.TextColor3 = Color3.new(1, 1, 1)
 PluginsHint.TextStrokeColor3 = Color3.new(1, 1, 1)
 PluginsHint.TextWrapped = true
@@ -1469,7 +1469,7 @@ PositionsHint.Position = UDim2.new(0, 25, 0, 40)
 PositionsHint.Size = UDim2.new(0, 200, 0, 70)
 PositionsHint.Font = Enum.Font.SourceSansItalic
 PositionsHint.TextSize = 16
-PositionsHint.Text = "utilisez le 'swp' ou 'setwaypoint' commande pour ajouter une position où votre corps ira (NOTE: Part teleports will not save)"
+PositionsHint.Text = "Use the 'swp' or 'setwaypoint' command to add a position using your character (NOTE: Part teleports will not save)"
 PositionsHint.TextColor3 = Color3.new(1, 1, 1)
 PositionsHint.TextStrokeColor3 = Color3.new(1, 1, 1)
 PositionsHint.TextWrapped = true
@@ -1502,7 +1502,7 @@ ChoosePart.Position = UDim2.new(0, 100, 0, 55)
 ChoosePart.Size = UDim2.new(0, 75, 0, 30)
 ChoosePart.Font = Enum.Font.SourceSans
 ChoosePart.TextSize = 14
-ChoosePart.Text = "choisir Objet"
+ChoosePart.Text = "Select Part"
 ChoosePart.TextColor3 = Color3.new(1, 1, 1)
 ChoosePart.ZIndex = 10
 table.insert(shade2,ChoosePart)
@@ -1516,7 +1516,7 @@ CopyPath.Position = UDim2.new(0, 185, 0, 55)
 CopyPath.Size = UDim2.new(0, 75, 0, 30)
 CopyPath.Font = Enum.Font.SourceSans
 CopyPath.TextSize = 14
-CopyPath.Text = "Copier chemin"
+CopyPath.Text = "Copy Path"
 CopyPath.TextColor3 = Color3.new(1, 1, 1)
 CopyPath.ZIndex = 10
 table.insert(shade2,CopyPath)
@@ -1530,7 +1530,7 @@ Directions_3.Position = UDim2.new(0, 51, 0, 17)
 Directions_3.Size = UDim2.new(0, 257, 0, 32)
 Directions_3.Font = Enum.Font.SourceSans
 Directions_3.TextSize = 14
-Directions_3.Text = 'Cliquez sur une pièce, puis cliquez sur le bouton "choisir Objet" pour la définir comme emplacement de téléportation.'
+Directions_3.Text = 'Click on a part and then click the "Select Part" button below to set it as a teleport location'
 Directions_3.TextColor3 = Color3.new(1, 1, 1)
 Directions_3.TextWrapped = true
 Directions_3.TextYAlignment = Enum.TextYAlignment.Top
@@ -1568,7 +1568,7 @@ PopupText_5.Size = UDim2.new(1, 0, 0.95, 0)
 PopupText_5.ZIndex = 10
 PopupText_5.Font = Enum.Font.SourceSans
 PopupText_5.TextSize = 14
-PopupText_5.Text = "Aller à l'objet"
+PopupText_5.Text = "Teleport to Part"
 PopupText_5.TextColor3 = Color3.new(1, 1, 1)
 PopupText_5.TextWrapped = true
 table.insert(text1,PopupText_5)
@@ -1629,7 +1629,7 @@ PopupText.Size = UDim2.new(1, 0, 0.949999988, 0)
 PopupText.ZIndex = 10
 PopupText.Font = Enum.Font.SourceSans
 PopupText.FontSize = Enum.FontSize.Size14
-PopupText.Text = "SnoopChat V2"
+PopupText.Text = "ChatSnoop V2"
 PopupText.TextColor3 = Color3.new(1, 1, 1)
 PopupText.TextWrapped = true
 table.insert(text1,PopupText)
@@ -1693,7 +1693,7 @@ SaveChatlogs.Size = UDim2.new(0, 75, 0, 20)
 SaveChatlogs.ZIndex = 10
 SaveChatlogs.Font = Enum.Font.SourceSans
 SaveChatlogs.FontSize = Enum.FontSize.Size14
-SaveChatlogs.Text = "sauver en .txt"
+SaveChatlogs.Text = "Sauver en .txt"
 SaveChatlogs.TextColor3 = Color3.new(1, 1, 1)
 table.insert(shade2,SaveChatlogs)
 table.insert(text1,SaveChatlogs)
@@ -1788,7 +1788,7 @@ selectChat.Size = UDim2.new(0, 164, 0, 20)
 selectChat.ZIndex = 10
 selectChat.Font = Enum.Font.SourceSans
 selectChat.FontSize = Enum.FontSize.Size14
-selectChat.Text = "SnoopChat V2"
+selectChat.Text = "ChatSnoop V2"
 selectChat.TextColor3 = Color3.new(1, 1, 1)
 table.insert(shade2,selectChat)
 table.insert(text1,selectChat)
@@ -1802,7 +1802,7 @@ selectJoin.Size = UDim2.new(0, 164, 0, 20)
 selectJoin.ZIndex = 10
 selectJoin.Font = Enum.Font.SourceSans
 selectJoin.FontSize = Enum.FontSize.Size14
-selectJoin.Text = "Journal de rejoins"
+selectJoin.Text = "Logs de rejoins"
 selectJoin.TextColor3 = Color3.new(1, 1, 1)
 table.insert(shade3,selectJoin)
 table.insert(text1,selectJoin)
@@ -1967,7 +1967,7 @@ function toClipboard(String)
 	local clipBoard = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
 	if clipBoard then
 		clipBoard(String)
-		notify('Clipboard','Copié dans le presse papier')
+		notify('Clipboard','Copied to clipboard')
 	else
 		notify('Clipboard',"Your exploit doesn't have the ability to use the clipboard")
 	end
@@ -2744,21 +2744,21 @@ reference = (function()
 	main.TopBar.Close.MouseButton1Click:Connect(function()
 		main:TweenPosition(UDim2.new(0.5,-250,0,-500), "InOut", "Quart", 0.5, true, nil)
 	end)
-	local inviteButton = main:FindFirstChild("Bouton d'aide",true)
+	local inviteButton = main:FindFirstChild("InviteButton",true)
 	local lastPress = nil
 	inviteButton.MouseButton1Click:Connect(function()
 		local func = setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set)
 		if func then
-			func("SYNAPSE_SNOOPER#4139")
-			inviteButton.Text = "Copié"
+			func("https://discord.io/infiniteyield")
+			inviteButton.Text = "Copied"
 		else
-			inviteButton.Text = "Pas de fonctions de copie, tapez le lien hors"
+			inviteButton.Text = "No Clipboard Function, type out the link"
 		end
 		local pressTime = tick()
 		lastPress = pressTime
 		wait(2)
 		if lastPress ~= pressTime then return end
-		inviteButton.Text = "Copier l'identitfiant du Proprio (SYNAPSE_SNOOPER#4139)"
+		inviteButton.Text = "Copier le pseudo de Snoop (SYNAPSE_SNOOPER4139)"
 	end)
 	dragGUI(main)
 	main.Parent = PARENT
@@ -3167,7 +3167,7 @@ function CreateJoinLabel(plr,ID)
 	info1.ZIndex = 10
 	info1.Font = Enum.Font.SourceSans
 	info1.FontSize = Enum.FontSize.Size14
-	info1.Text = "Username: "..plr.Name.."\nJoined Server: "..Time()
+	info1.Text = "Pseudo: "..plr.Name.."\nRejoin le serveur: "..Time()
 	info1.TextColor3 = Color3.new(1, 1, 1)
 	info1.TextWrapped = true
 	info1.TextXAlignment = Enum.TextXAlignment.Left
@@ -3180,7 +3180,7 @@ function CreateJoinLabel(plr,ID)
 	info2.ZIndex = 10
 	info2.Font = Enum.Font.SourceSans
 	info2.FontSize = Enum.FontSize.Size14
-	info2.Text = "User ID: "..ID.."\nAccount Age: "..plr.AccountAge.."\nJoined Roblox: Loading..."
+	info2.Text = "ID: "..ID.."\nAge de compte: "..plr.AccountAge.."\nJoined Roblox: Loading..."
 	info2.TextColor3 = Color3.new(1, 1, 1)
 	info2.TextWrapped = true
 	info2.TextXAlignment = Enum.TextXAlignment.Left
@@ -3818,7 +3818,7 @@ SaveChatlogs.MouseButton1Down:Connect(function()
 				end
 			end
 			nameFile()
-			notify('Chat Logs','Saved chat logs to the workspace folder within your exploit folder.')
+			notify('Chat Logs','Les logs ont été enregistrées dans le dossier workspace de votre exe.')
 		end
 	else
 		notify('Chat Logs','Your exploit does not support write file. You cannot save chat logs.')
@@ -3911,7 +3911,7 @@ Delete.MouseButton1Click:Connect(function()
 	binds = {}
 	refreshbinds()
 	updatesaves()
-	notify('Keybinds Updated','Removed all keybinds')
+	notify('Keybinds Updated','Tout les keybinds ont été supprimés')
 end)
 
 Close_2.MouseButton1Click:Connect(function()
